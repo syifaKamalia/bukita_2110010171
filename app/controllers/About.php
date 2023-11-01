@@ -14,7 +14,7 @@ class About extends Controller
         $data['title'] = 'Halaman About Me';
         $data['nama'] = 'Syifa Kamalia';
         $data['alamat'] = 'Banjarmasin';
-        $data['no_hp'] = '08875036138';
+        $data['no_hp'] = '081234567889';
 
         $this->view('templates/header', $data);
         $this->view('templates/sidebar', $data);
